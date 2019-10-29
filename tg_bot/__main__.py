@@ -16,28 +16,17 @@ from tg_bot import dispatcher, updater, TOKEN, WEBHOOK, OWNER_ID, DONATION_LINK,
 from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
-
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me / help... 
+hallo {}, my name is {}! if you have any questions about how to use me please give me / help... 
 
 im a group manager bot maintained by  [this man](tg://user?id={}).
 
 I was built on python3 using the python-telegram-bot library.... 
 
-I am completely opensource. My Orginal code is available to you [here](https://t.me/legendoftelegram) 
+I am completely opensource. My Orginal code is available to you [here](https://t.me/jishnu333)
 
 hit help for commands /help..
 
-Using standard [Marie](http://telegram.dog/BanhammerMarie_bot) is always gonna be easier.
-Perks:
-- latest features
-- it's free
-- biggest list of users for any /info commands
-- the database will always be correctly formatted
-- bugs will always be fixed ASAP
-- no need to maintain anything yourself
-Also, no support can be given for any [clones like this](https://telegram.dog/MissAnn_Bot); source might be changed and that's not my problem [code](https://github.com/anandus0070/devil-eng-bot) .
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
 
 """
 
